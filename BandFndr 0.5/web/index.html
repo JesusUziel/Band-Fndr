@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<!--
+Archivo: Index del Proyecto
+Enlaces:
+    -ValidarIS.jsp
+    -ValidarRS.jsp
+    -PoliticasDePrivacidad.html
+    -TerminosDeServicio.html
+-->
+<html>
+    <head>
+        <title>Band Fndr</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="Imgs/favicon.ico" rel='shortcut icon' type='image/x-icon'>
+        <link type="text/css" href="CSS/ISMenuDes.css" rel="stylesheet">
+        <link type="text/css" href="CSS/IniciodeSesion.css" rel="stylesheet">
+        <link type="text/css" href="CSS/ISConocenos.css" rel="stylesheet">
+        <link type="text/css" href="CSS/fuentes.css" rel="stylesheet">
+        <script type="text/javascript" src="JS/index.js"></script>
+    </head>
+    <body onpaste="return false" ondrag="return false" ondrop="return false;">
+        
+        <div class="Dec"> 
+                <p class="Let">Bienvenidos a Band Fndr 2.0</p>
+        </div>
+        <div class="Fin">
+            <p class="Wst">AHORA SE PARTE DE NUESTRO SITIO WEB</p>
+        </div>
+        <div class="cabecera">
+            <div class="NV">
+                <br>
+                <h5 class="LT"><a href="" class="Kic">SOUNDWAVE &nbsp; SYSTEMS</a></h5>
+            </div>
+        <div id="header">
+            <nav> 
+                <ul class="nav">
+                <li><a href="#InioReg">Inicia sesión o Regístrate</a></li>
+                <li><a href="#Conocenos">Conócenos</a></li>
+                <li><a href="#Inicio">Inicio</a></li>
+                </ul>
+            </nav>
+        </div>
+        </div>
+        <a name="Inicio" id="a"></a>
+
+        <div class="EA">
+            
+        </div>
+        
+        <div class="Con">
+            <a name="Conocenos" id="b"></a>
+            <table class="TEstilo">
+                <tr class="Quienes">
+                    <th colspan="2">
+                        <p class="CONO">¿Quiénes somos?</p>
+                        <br>
+                        <div class="Estruct">
+                        <p class="CuaTex">Nosotros somos Soundwave Systems, una empresa dedicada a desarrollar 
+                            software de calidad que promueva el uso de la tecnología y de otros ámbitos además de satisfacer las necesidades y requerimientos del 
+                            cliente teniendo en cuenta a la competencia y mostrar ser la mejor opción en el mercado, nuestra visión en llegar a ser una empresa reconocida 
+                            por la calidad de nuestro producto gracias al esfuerzo y dedicación del equipo ganándose la confianza de nuestros clientes y obtener 
+                            herramientas de calidad que ayuden en nuestro trabajo y el desarrollo de la empresa. En nuestra filosofía buscamos hacer que el uso de la 
+                            tecnología sea de fácil acceso y de gran utilidad para la sociedad promoviendo tanto el uso de esta como el interés hacia otras culturas y ámbitos como 
+                            lo es la música entre otros mediante el uso de nuestros productos siempre con una actitud de respeto y de un servicio leal hacia los usuarios.</p>
+                        </div>
+                    </th>
+                </tr>
+                <tr>
+                    <th class="Band">
+                        <p class="CONO">¿Qué es Band Fndr?</p>
+                        <br>
+                        <div class="Estruct">
+                            <p class="CuaTex">Band Fndr es una página en la cual la gente interactuará entre sí mediante su experiencia musical. Este sitio web fue creado 
+                                para músicos que quiera compartir su talento y sus creaciones, además de que también podrán formar agrupaciones musicales 
+                                con otros músicos. Los proyectos que subas tanto grupal como individualmente podrán ser evaluados por otros usuarios, al 
+                                igual que tu podrás evaluar el proyecto de otros. También, ocasionalmente, se organizan eventos para que los usuarios puedan reunirse en un lugar y 
+                                socializar entre ellos, además de presentarse en vivo si lo quisieras. Únete a nuestro Band Fndr y descubre una gran experiencia musical.</p>
+                 
+                        </div>
+                    </th>
+                    <th class="Contact">
+                        <p class="CONO">Contáctanos:</p>
+                        <br>
+                        <div class="Estruct">
+                            <p class="CuaTexDos">Si tienes alguna duda o alguna situación respecto a nuestro servicio puedes contactarnos mediante nuestro correo:
+                                <br>
+                                <a href="" class="Enlace">BandFndr@gmail.com</a> 
+                                <br>
+                                <br>
+                                Síguenos en Facebook como: &nbsp; <a href="https://www.facebook.com/Band-Fndr-1476509775759743/?modal=admin_todo_tour&ref=admin_to_do_step_controller" target="_blank" class="Enlace">Band Fndr</a>
+                                <br>
+                                o  en Twiter como: &nbsp; <a href="https://twitter.com/Band_Fndr" target="_blank" class="Enlace">@Band_Fndr</a>
+                                <br>
+                                <br>
+                                Para enterarte de lo más relevante de nuestro sitio web. 
+                                Esperamos que tu experiencia en nuestro sitio web sea placentera.</p>
+                        </div>
+                    </th>
+                </tr>
+            
+            </table>
+        </div>
+        <div class="PE">
+            
+            
+        </div>
+        <div class="OS">
+            <a name="InioReg" id="c"></a>
+            <div class="Inicio">
+                <p class="Ini">Iniciar Sesion</p>
+                <br>
+                <br>
+                <form name="FormInicio" method="post" action="ValidarIS.jsp" onsubmit="return validarLogin()">
+                    <label class="IniSesion">Ingresa tu Usuario:</label>
+                    <br>
+                    <input type="text" name="usr" id="idUsr" size="30" placeholder="Usuario" class="IngreUsu" >
+                    <br>
+                    <br>
+                    <label class="IniSesion">Ingresa tu Contraseña:</label>
+                    <br>
+                    <input type="password" name="psw" id="idPsw" size="30" placeholder="Contrase&ntilde;a" class="IngrePass">
+                    <br>
+                    <br>
+                    <br>
+                    <input type="submit" value="Entrar">
+                </form>
+            </div>
+            
+            <div class="Registro">
+                <p class="Reg">Registrarse</p>
+                <br>
+                <br>
+                <form name="FormReg" method="post" action="ValidarRS.jsp" onsubmit="return validarRegistro()">
+                    <label class="RegistroSesion">Ingresa tu Nombre:</label>
+                    <br>
+                    <input type="text" name="Nombre" id="idNombre" size="30" placeholder="Nombre" class="TextReg" maxlength="30">
+                    <br><br>
+                    <label class="RegistroSesion">Ingresa tu Apellido Paterno:</label>
+                    <br>
+                    <input type="text" name="Apaterno" id="idApaterno" size="30" placeholder="Apellido Paterno" class="TextReg" maxlength="15">
+                    <br><br>
+                    <label class="RegistroSesion">Ingresa tu Apellido Materno:</label>
+                    <br>
+                    <input type="text" name="Amaterno" id="idAmaterno" size="30" placeholder="Apellido Materno" class="TextReg" maxlength="15">
+                    <br><br>
+                    <label class="RegistroSesion">Ingresa un Nombre de Usuario:</label>
+                    <br>
+                    <input type="text" name="NomUsuario" id="idNomUsuario" size="30" placeholder="Nombre de Usuario" class="TextReg" maxlength="25">
+                    <br><br>
+                    <label class="RegistroSesion">Ingresa una Contraseña:</label>
+                    <br>
+                    <input type="password" name="RegContrasena" id="idRegContrasena" size="30" placeholder="Contrase&ntilde;a" class="PasswordReg" maxlength="20" minlength="5">
+                    <br><br>
+                    <label class="RegistroSesion">Ingresa de nuevo la Contraseña:</label>
+                    <br>
+                    <input type="password" name="Contrasena" id="idNuevContrasena" size="30" placeholder="Contrase&ntilde;a" class="PasswordReg" maxlength="20"  minlength="5">
+                    <br><br>
+                    <label class="RegistroSesion">Ingresa tu Correo Electrónico:</label>
+                    <br>
+                    <input type="email" name="Correo" id="idCorreo" size="30" placeholder="Correo Electronico" class="EmailReg">
+                    <br><br>
+                    <label class="RegistroSesion">Ingresa tu Domicilio:</label>
+                    <br>
+                    <input type="text" name="domicilio" id="idDomicilio" size="30" placeholder="Domicilio" class="TextReg" maxlength="150">
+                    <br><br>
+                    <label class="RegistroSesion">Ingresa tu Fecha de Nacimiento:</label>
+                    <br>
+                    <select name="Dia" id="idDia" class="nacimiento">
+                        <option value="Dia" selected disabled>Día</option>
+                        <option value="01">01</option>
+                        <option value="02">02</option>
+                        <option value="03">03</option>
+                        <option value="04">04</option>
+                        <option value="05">05</option>
+                        <option value="06">06</option>
+                        <option value="07">07</option>
+                        <option value="08">08</option>
+                        <option value="09">09</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                        <option value="24">24</option>
+                        <option value="25">25</option>
+                        <option value="26">26</option>
+                        <option value="27">27</option>
+                        <option value="28">28</option>
+                        <option value="29">29</option>
+                        <option value="30">30</option>
+                        <option value="30">31</option>         
+                    </select>
+                    <select name="Mes" id="idMes" class="nacimiento">
+                        <option value="Mes" selected disabled>Mes</option>
+                        <option value="01">01</option>
+                        <option value="02">02</option>
+                        <option value="03">03</option>
+                        <option value="04">04</option>
+                        <option value="05">05</option>
+                        <option value="06">06</option>
+                        <option value="07">07</option>
+                        <option value="08">08</option>
+                        <option value="09">09</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>   
+                    </select>
+                    <select name="Year" id="idYear" class="nacimiento">
+                        <option value="Year" selected disabled>Año</option>
+                        <option value="2017">2017</option>
+                        <option value="2016">2016</option>
+                        <option value="2015">2015</option>
+                        <option value="2014">2014</option>
+                        <option value="2013">2013</option>
+                        <option value="2012">2012</option>
+                        <option value="2011">2011</option>
+                        <option value="2010">2010</option>
+                        <option value="2009">2009</option>
+                        <option value="2008">2008</option>
+                        <option value="2007">2007</option>
+                        <option value="2006">2006</option>
+                        <option value="2005">2005</option>
+                        <option value="2004">2004</option>
+                        <option value="2003">2003</option>
+                        <option value="2002">2002</option>
+                        <option value="2001">2001</option>
+                        <option value="2000">2000</option>
+                        <option value="1999">1999</option>
+                        <option value="1998">1998</option>
+                        <option value="1997">1997</option>
+                        <option value="1996">1996</option>
+                        <option value="1995">1995</option>
+                        <option value="1994">1994</option>
+                        <option value="1993">1993</option>
+                        <option value="1992">1992</option>
+                        <option value="1991">1991</option>
+                        <option value="1990">1990</option>
+                        <option value="1989">1989</option>
+                        <option value="1988">1988</option>
+                        <option value="1987">1987</option>
+                        <option value="1986">1986</option>
+                        <option value="1985">1985</option>
+                        <option value="1984">1984</option>
+                        <option value="1983">1983</option>
+                        <option value="1982">1982</option>
+                        <option value="1981">1981</option>
+                        <option value="1980">1980</option>
+                        <option value="1979">1979</option>
+                        <option value="1978">1978</option>
+                        <option value="1977">1977</option>
+                        <option value="1976">1976</option>
+                        <option value="1975">1975</option>
+                        <option value="1974">1974</option>
+                        <option value="1973">1973</option>
+                        <option value="1972">1972</option>
+                        <option value="1971">1971</option>
+                        <option value="1970">1970</option>
+                        <option value="1969">1969</option>
+                        <option value="1968">1968</option>
+                        <option value="1967">1967</option>
+                        <option value="1966">1966</option>
+                        <option value="1965">1965</option>
+                        <option value="1964">1964</option>
+                        <option value="1963">1963</option>
+                        <option value="1962">1962</option>
+                        <option value="1961">1961</option>
+                        <option value="1960">1960</option>
+                    </select>
+                    <br><br>
+                    <label class="RegistroSesion">Ingresa tu Género:</label>
+                    <br>
+                    <select name="Genero" id="idGenero" class="genero">
+                        <option value="Genero" selected disabled>Género</option>
+                        <option value="M">Masculino</option>
+                        <option value="F">Femenino</option>
+                    </select>
+                    <br><br>
+                    <input type="checkbox" name="politica" value="acepto" required>
+                    <label class="politica">He leído y acepto la <a href="PoliticaDePrivacidad.html" target="_blank">Política de Privacidad</a> y <a href="TerminosDeServicio.html" target="_blank">Términos de Servicio</a>.</label>
+                    <br><br>
+                    <input name="submit" type="submit" value="Registrarse">
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

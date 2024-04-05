@@ -1,0 +1,220 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22/11/2017, 07:21:31 PM
+    Author     : diego
+*/
+* {
+    margin:0px;
+    padding:0px;
+}
+@font-face {
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: normal;
+    src: url(../Fonts/Merriweather-Regular.ttf);
+}
+
+#header {
+    float: right;
+    margin:7px;
+    width:500px;
+    
+    font-family: Merriweather;
+    font-size: 17px;
+    background-color: #CB2213;
+}
+
+a.Kic{   
+    color: #FFFFFF;
+    text-decoration: none;
+}   
+			
+ul, ol {
+    list-style:none;
+    
+}
+			
+.nav > li {
+    float:left;
+}
+			
+.nav li a {
+    background-color: #CB2213;
+    color:#fff;
+    text-decoration:none;
+    padding:10px 12px;
+    display:block;
+}
+			
+.nav li a:hover {
+    background-color: #FF2F2F;
+}
+			
+.nav li ul {
+    display: none;
+    position: absolute;
+    min-width: 120px;
+    font-size: 14px;
+}
+			
+.nav li:hover > ul {
+    display:block;
+}
+			
+.nav li ul li {
+    position:relative;
+}
+			
+.nav li ul li ul {
+    right:-140px;
+    top:0px;
+}
+
+.cabecera{
+    width:100%;
+    background: #CB2213;
+    position: fixed;
+    z-index: 2;
+    
+}
+div.BT{
+    float: left;
+    text-align: center;
+    width: 300px;
+    height: 35px;
+    margin-left: 110px;
+    margin-top: 5px;
+}
+button.EM{
+    margin-top: 6px;
+    width: 480px;
+    height: 32px;
+    background-color: white;
+    border: 1px solid #404040;
+    border-radius: 5px;
+    color: #393939;
+    overflow: visible;
+}
+div.descrpcionT{
+    border: none;
+    position: relative;
+    text-align: center;
+    height: 130px;             
+    width: 800px;							 
+    position: absolute;        
+    left: 50%;                 
+    top: 175px;														
+    margin-left: -400px; /*W*/     
+    margin-top: -50px; /*H*/
+}
+div.botones{
+    border: none;
+    position: relative;
+    text-align: left;
+    height: 30px;             
+    width: 800px;							 
+    position: absolute;        
+    left: 50%;                 
+    top: 275px;														
+    margin-left: -400px; /*W*/     
+    margin-top: -15px; /*H*/  
+}
+div.match{
+    position: relative;
+    text-align: center;
+    border: 2px solid #D1D1D1;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    height: 500px;             
+    width: 800px;							 
+    position: absolute;        
+    left: 50%;                 
+    top: 540px;														
+    margin-left: -400px; /*W*/     
+    margin-top: -250px; /*H*/ 
+    margin-bottom: 200px;
+}
+button.botonUno{
+    height: 30px;
+    border: none;
+    background: #E20000;
+    color: #f2f2f2;
+    padding: 9px 70px;
+    font-size: 14px;
+    border-top-left-radius: 11px;
+    position: relative;
+    box-sizing: border-box;
+    transition: all 500ms ease;
+}
+button.botonUno:hover{
+    background: #f1f1f1;
+    color: #E20000;
+    box-shadow: inset 0 0 0 3px #E20000;
+}
+button.botonDos{
+    height: 30px;
+    border: none;
+    background: #E20000;
+    color: #f2f2f2;
+    padding: 9px 70px;
+    font-size: 14px;
+    position: relative;
+    box-sizing: border-box;
+    transition: all 500ms ease;
+}
+button.botonDos:hover{
+    background: #f1f1f1;
+    color: #E20000;
+    box-shadow: inset 0 0 0 3px #E20000;
+}
+button.botonTres{
+    height: 30px;
+    border: none;
+    background: #E20000;
+    color: #f2f2f2;
+    padding: 9px 70px;
+    border-top-right-radius: 11px;
+    font-size: 14px;
+    position: relative;
+    box-sizing: border-box;
+    transition: all 500ms ease;
+}
+button.botonTres:hover{
+    background: #f1f1f1;
+    color: #E20000;
+    box-shadow: inset 0 0 0 3px #E20000;
+}
+div.acom{
+    margin-left: 15px;
+    margin-top: 10px;
+    height: 100px;
+    width: 600px;
+    border: none;
+}
+input[type=text].PUBGenero{
+    padding: 10px 20px;
+    border: 2px solid #B3B3B3;
+    border-radius: 7px;
+    background-color: #f1f1f1;
+    width: 280px;
+    height: 16px;
+}
+select.GMusical{
+    font-family: verdana;
+    font-size: 14px;
+    color: white;
+    background-color:#666;
+    height: 40px;
+    width: 160px;
+    border-radius: 8px;
+}
+option{
+    font-family: arial; 
+    font-size: 14px;
+    background-color: #929292;
+}

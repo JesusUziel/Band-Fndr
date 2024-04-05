@@ -1,0 +1,43 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 10/05/2018, 11:21:36 PM
+    Author     : diego
+*/
+@font-face {
+    font-family: Titillium Web;
+    font-style: normal;
+    font-weight: normal;
+    src: url(../Fonts/TitilliumWeb-Regular.ttf);
+}
+@font-face {
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: normal;
+    src: url(../Fonts/Barlow-Regular.ttf);
+}
+@font-face {
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    src: url(../Fonts/Oswald-Regular.ttf);
+}
+p.simpleTDos{
+    font-family: Titillium Web;
+    font-size: 18px;
+    text-align: center;
+}
+p.lblDos{
+    font-family: Barlow;
+    font-size: 18px;
+    text-align: center;
+}
+p.papsp{
+    font-family: Oswald;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 9px;
+}

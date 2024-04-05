@@ -1,0 +1,79 @@
+<!-- 
+    Document   : IFPerfiles
+    Created on : 22/11/2017, 11:57:25 PM
+    Author     : Jesus
+--%>
+<%@page import="java.sql.ResultSet"%>
+<%@page import="java.sql.Statement"%>
+<%@page import="Conexion.Conexion"%>
+<%@page import="java.sql.Connection"%>
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<%!
+    Connection con;
+    Conexion miconexion;
+    Statement stmt,stmt2,stmt3;
+    ResultSet rs;
+    
+%>
+<% 
+    miconexion = new Conexion();
+    con=miconexion.getConexion();
+    stmt=con.createStatement();
+    rs=stmt.executeQuery("SELECT * FROM Instrumento;");
+    
+    
+-->
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>JSP Page</title>
+        <link type="text/css" href="../CSS/PUExplorarMusica.css" rel="stylesheet">
+        <link type="text/css" href="../CSS/fuentes.css" rel="stylesheet">
+    </head>
+    <body onpaste="return false" ondrag="return false" ondrop="return false;">
+        <div class="acom">
+            <br>
+            <label name="lblBUsuarios" class="Bpersona">Selecciona el instrumento del musico que buscas:</label>
+            <br><br>
+            <input type="text" name="BuscarUsuari" id="BuscarUsuari" class="PUBGenero" placeholder="Buscar Usuario" onkeyup="buscar()">
+
+          
+            <br><br>
+            <div  id="resultado"> 
+                <table cellspacing="15" cellpadding="15">
+                 
+                    <tr>
+                        
+                    </tr>
+                </table>
+            </div>
+            
+            <script src="../JS/jquery-3.2.1.min.js" type="text/javascript"></script>
+            <script>
+            function buscar(){
+                var textoBusqueda= $("input#BuscarUsuari").val();
+                if (textoBusqueda!="") {
+                    $.post("busca.jsp",{valorBusqueda: textoBusqueda},function(mensaje){
+                    $("#resultado").html(mensaje);
+                    });
+                }else{
+                    ("#resultado").html('');
+                };
+            
+            };
+            function buscarDos(){
+                var escojeBusca= $('#BUGenero').val();
+                if (escojeBusca!=""){
+                    $.post("busca.jsp", {valorCaja: escojeBusca},function(mensaje){
+                            $("#resultado").html(mensaje);
+                    });
+                }else{
+                    ("#resultado").html('');
+                };
+            };
+        </script>
+        </div>
+        <br><br>
+    </body>
+</html>

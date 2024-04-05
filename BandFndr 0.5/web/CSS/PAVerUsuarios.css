@@ -1,0 +1,120 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26/11/2017, 02:50:13 PM
+    Author     : diego
+*/
+
+* {
+    margin:0px;
+    padding:0px;
+}
+@font-face {
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: normal;
+    src: url(../Fonts/Merriweather-Regular.ttf);
+}
+
+#header {
+    float: right;
+    margin: 7px;
+    width: 500px;
+    font-family: Merriweather;
+    font-size: 19px;
+    background-color: #CB2213;
+}
+
+a.Kic{   
+    color: #FFFFFF;
+    text-decoration: none;
+}   
+			
+ul, ol {
+    list-style:none;
+    
+}
+			
+.nav > li {
+    float:left;
+}
+			
+.nav li a {
+    background-color: #CB2213;
+    color:#fff;
+    text-decoration:none;
+    padding:10px 12px;
+    display:block;
+}
+			
+.nav li a:hover {
+    background-color: #FF2F2F;
+}
+			
+.nav li ul {
+    display: none;
+    position: absolute;
+    min-width: 120px;
+    font-size: 14px;
+}
+			
+.nav li:hover > ul {
+    display:block;
+}
+			
+.nav li ul li {
+    position:relative;
+}
+			
+.nav li ul li ul {
+    right:-140px;
+    top:0px;
+}
+
+.cabecera{
+    width:100%;
+    background: #CB2213;
+    position:fixed;
+    z-index: 2;
+    
+}
+div.BT{
+    float: left;
+    text-align: center;
+    width: 600px;
+    height: 40px;
+    margin-left: 80px;
+    margin-top: 6px;
+}
+a.decoralink{
+    color: #FFFFFF;
+    text-decoration: none;  
+}
+div.act{
+    text-align: left;
+    border: none;
+    height: 140px;             
+    width: 800px;							 
+    position: absolute;        
+    left: 50%;                 
+    top: 210px;														
+    margin-left: -400px; /*W*/     
+    margin-top: -70px; /*H*/  
+    margin-bottom: 15%;
+}
+div.trp{
+    text-align: left;
+    border: 1px solid black;
+    border-radius: 20px;
+    height: 500px;             
+    width: 800px;							 
+    position: absolute;        
+    left: 50%;                 
+    top: 520px;														
+    margin-left: -400px; /*W*/     
+    margin-top: -250px; /*H*/  
+    margin-bottom: 15%;
+}

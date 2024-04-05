@@ -1,0 +1,359 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 14/10/2017, 10:26:09 PM
+    Author     : diego
+*/
+@font-face {
+    font-family: Cross Town Personal Use;
+    font-style: normal;
+    font-weight: normal;
+    src: url(../Fonts/Cross_Town_Personal_Use.ttf);
+}
+@font-face {
+    font-family: Bright Young Things;
+    font-style: normal;
+    font-weight: normal;
+    src: url(../Fonts/Bright Young Things.ttf);
+}
+@font-face {
+    font-family: Kanit;
+    font-style: normal;
+    font-weight: normal;
+    src: url(../Fonts/Kanit-Regular.ttf);
+}
+@font-face {
+    font-family: Cairo;
+    font-style: normal;
+    font-weight: normal;
+    src: url(../Fonts/Cairo-Regular.ttf);
+}
+@font-face {
+    font-family: Slave only dreams to be king;
+    font-style: normal;
+    font-weight: normal;
+    src: url(../Fonts/Slave_only_dreams_to_be_king.ttf);
+}
+@font-face {
+    font-family: Schluber;
+    font-style: normal;
+    font-weight: normal;
+    src: url(../Fonts/Schluber.ttf);
+}
+@font-face {
+    font-family: Cross Town Personal Use;
+    font-style: normal;
+    font-weight: normal;
+    src: url(../Fonts/Cross_Town_Personal_Use.ttf);
+}
+@font-face {
+    font-family: Crete Round;
+    font-style: normal;
+    font-weight: normal;
+    src: url(../Fonts/CreteRound-Regular.ttf);
+}
+@font-face {
+    font-family: Fjalla One;
+    font-style: normal;
+    font-weight: normal;
+    src: url(../Fonts/FjallaOne-Regular.ttf);
+}
+@font-face {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    src: url(../Fonts/Ubuntu-Regular.ttf);
+}
+@font-face {
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: normal;
+    src: url(../Fonts/Barlow-Regular.ttf);
+}
+@font-face {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    src: url(../Fonts/Raleway-Regular.ttf);
+}
+@font-face {
+    font-family: American Captain;
+    font-style: normal;
+    font-weight: normal;
+    src: url(../Fonts/American-Captain.ttf);
+}
+@font-face {
+    font-family: Titillium Web;
+    font-style: normal;
+    font-weight: normal;
+    src: url(../Fonts/TitilliumWeb-Regular.ttf);
+}
+@font-face {
+    font-family: Alegreya Sans SC;
+    font-style: normal;
+    font-weight: normal;
+    src: url(../Fonts/AlegreyaSansSC-Regular.ttf);
+}
+@font-face {
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: normal;
+    src: url(../Fonts/Quicksand-Regular.ttf);
+}
+@font-face {
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    src: url(../Fonts/Oswald-Regular.ttf);
+}
+@font-face {
+    font-family: Permanent Maker;
+    font-style: normal;
+    font-weight: normal;
+    src: url(../Fonts/PermanentMarker-Regular.ttf);
+}
+@font-face {
+    font-family: Bangers;
+    font-style: normal;
+    font-weight: normal;
+    src: url(../Fonts/Bangers-Regular.ttf);
+}
+h1.LetraCT{
+    font-family: Cross Town Personal Use;
+    font-size: 35px;
+}
+h1.LetraBYT{
+    font-family: Bright Young Things;
+    font-size: 35px;
+}
+font.LetraTahoma{
+    font-family: "Tahoma", "Geneva", sans-serif;
+    font-size: 17px;
+}
+p.CONO{
+    font-family: Kanit;
+    font-size: 38px;
+}
+p.CuaTex{
+    font-family: Cairo;
+    font-size: 18px;
+    text-align: justify;
+}
+p.CuaTexDos{
+    font-family: Cairo;
+    font-size: 15px;
+    text-align: justify;
+}
+p.Let{
+    font-family: Slave only dreams to be king;
+    font-size: 167px;
+    text-align: center;
+    color: white;
+    
+}
+p.Wst{
+    font-family: Schluber;
+    font-size: 90px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: #000 0px 0px 2px, #000 0px 0px 2px, #000 0px 0px 2px, #000 0px 0px 2px, #000 0px 0px 2px, #000 0px 0px 2px, #000 0px 0px 2px, #000 0px 0px 2px, #000 0px 0px 2px;
+    -webkit-font-smoothing: antialiased;
+}
+p.Ini{
+    font-family: Cross Town Personal Use;
+    font-size: 52px;
+    text-align: center;
+    color: black;
+    
+}
+p.Reg{
+    font-family: Cross Town Personal Use;
+    font-size: 52px;
+    text-align: center;
+    color: black;
+}
+label.IniSesion{
+    font-family: Crete Round;
+    font-size: 17px;
+}
+label.RegistroSesion{
+    font-family:  Crete Round;
+    font-size: 16px;
+}
+label.politica{
+    font-family:  Crete Round;
+    font-size: 16px;
+    text-align: justify;
+}
+h5.LetraOne{
+    font-family: Fjalla One;
+    color: #FFFFFF;
+    font-size: 37px;
+    text-align: center;
+    
+}
+p.Bien{
+    font-family: Cross Town Personal Use;
+    font-size: 49px;
+    text-align: center;
+    color: black;
+}
+p.CA{
+    text-align: justify;
+    font-family: Ubuntu;
+    font-size: 15px;
+}
+p.lbl{
+    font-family: Barlow;
+    font-size: 15px;
+}
+p.LSP{
+    font-family: Spectral SC ;
+    font-size: 18px;
+}
+p.RgGrupo{
+    font-family: American Captain;
+    text-align: center;
+    font-size: 48px;
+}
+p.simpleT{
+    font-family: Titillium Web;
+    font-size: 18px;
+    text-align: justify;
+}
+label.IngreGrupo{
+    font-family: Crete Round;
+    font-size: 16px;
+    text-align: left;
+}
+p.titu{
+    font-family: American Captain;
+    font-size: 60px;
+    
+}
+p.pequedes{
+    font-family: Titillium Web;
+    font-size: 18px;
+}
+label.Bpersona{
+    font-family:  Crete Round;
+    font-size: 18px;
+}
+p.titedit{
+    font-family: American Captain;
+    font-size: 57px;
+}
+p.nomeama{
+    font-family: Titillium Web;
+    font-size: 19px;
+    text-align: left;
+}
+label.batiz{
+    font-family: Crete Round;
+    font-size: 17px;
+}
+p.adver{
+    font-family: Crete Round;
+    font-size: 14px;
+    text-align: justify;
+}
+p.adverdos{
+    font-family: Crete Round;
+    font-size: 14px;
+    text-align: center;
+}
+p.leter{
+    font-family: American Captain;
+    font-size: 63px;
+}
+p.descript{
+    font-family: Titillium Web;
+    font-size: 20px;
+    text-align: justify;
+}
+label.escom{
+    font-family: Crete Round;
+    font-size: 18px;
+}
+p.adminBand{
+    font-family: Fjalla One;
+    font-size: 33px;
+    text-align: left;
+    color: white;
+}
+p.bienadmin{
+    font-family: Alegreya Sans SC;
+    font-size: 80px;
+    text-align: center;
+    color: #9A9A9A;
+}
+p.dicon{
+    font-family: Quicksand;
+    font-size: 35px;
+    text-align: center;
+    color: #2B2B2B;
+}
+p.decofal{
+   font-family: American Captain;
+   font-size: 60px; 
+   margin-left: 30px;
+}
+p.elpapu{
+    font-family: Titillium Web;
+    font-size: 24px;
+    margin-left: 30px;
+    margin-top: 8px;
+}
+p.bip{
+    font-family: American Captain;
+    font-size: 60px; 
+    
+}
+p.suft{
+    font-family: Titillium Web;
+    font-size: 21px;
+    text-align: left;
+    margin-top: 14px;
+}
+p.iano{
+    font-family: Crete Round;
+    font-size: 17px;
+}
+label.elamor{
+    font-family: Crete Round;
+    font-size: 17px;
+    margin-left: 20px;
+}
+p.binletra{
+    font-family: Bangers;
+    font-size: 58px;   
+}
+p.Datis{
+    font-family: Ubuntu;
+    font-size: 24px;
+    color: #2A2A2A;
+}
+p.Manis{
+    font-family: Fjalla One;
+    font-size: 18px;
+    
+}
+p.sabes{
+    font-family: Schluber;
+    font-size: 35px;
+}
+p.anuma{
+    font-family: Oswald;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 9px;
+}
+p.anumaDosT{
+    font-family: Oswald;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 0px;
+}

@@ -1,0 +1,239 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26/11/2017, 02:58:10 PM
+    Author     : diego
+*/
+
+* {
+    margin:0px;
+    padding:0px;
+}
+@font-face {
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: normal;
+    src: url(../Fonts/Merriweather-Regular.ttf);
+}
+@font-face {
+    font-family: Raleway;
+    font-weight: normal;
+    src: url(../Fonts/Raleway-Regular.ttf);
+}
+
+#header {
+    float: right;
+    margin: 7px;
+    width: 500px;
+    font-family: Merriweather;
+    font-size: 19px;
+    background-color: #CB2213;
+}
+
+a.Kic{   
+    color: #FFFFFF;
+    text-decoration: none;
+}   
+			
+ul, ol {
+    list-style:none;
+    
+}
+			
+.nav > li {
+    float:left;
+}
+			
+.nav li a {
+    background-color: #CB2213;
+    color:#fff;
+    text-decoration:none;
+    padding:10px 12px;
+    display:block;
+}
+			
+.nav li a:hover {
+    background-color: #FF2F2F;
+}
+			
+.nav li ul {
+    display: none;
+    position: absolute;
+    min-width: 120px;
+    font-size: 14px;
+}
+			
+.nav li:hover > ul {
+    display:block;
+}
+			
+.nav li ul li {
+    position:relative;
+}
+			
+.nav li ul li ul {
+    right:-140px;
+    top:0px;
+}
+
+.cabecera{
+    width:100%;
+    background: #CB2213;
+    position:fixed;
+    z-index: 2;
+    
+}
+div.BT{
+    float: left;
+    text-align: center;
+    width: 600px;
+    height: 40px;
+    margin-left: 80px;
+    margin-top: 6px;
+}
+a.decoralink{
+    color: #FFFFFF;
+    text-decoration: none;  
+}
+div.divstruct{
+    top: 20%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    border: none;
+    height: 200%
+}
+div.acomUno{
+    border-radius: 20px;
+    text-align: left;
+    width: 650px;
+    height: 600px;
+    padding: 6%;
+    margin: 6%;
+    margin-top: 130px;
+    border: 1px solid #D1D1D1;
+    background-color: white;
+}
+div.acomDos{
+    text-align: center;
+    border-radius: 20px;
+    width: 420px;
+    height: 600px;
+    padding: 6%;
+    margin: 6%;
+    margin-top: 130px;
+    border: 1px solid #D1D1D1;
+    background-color: white;
+}
+div.EIMG{
+    margin: auto;
+    border: 1px solid #929292;
+    border-radius: 12px;
+    background-image: url("../Imgs/UsuarioIMG.jpg");
+    height: 350px;
+    width: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 55%;
+}
+input[type=file].editdeco{
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: 1;
+}
+.editdeco + label  {
+    width: 240px;
+    border: none;
+    background: #868686;
+    color: #f2f2f2;
+    padding: 9px 70px;
+    font-size: 15px;
+    border-radius: 5px;
+    position: relative;
+    box-sizing: border-box;
+    transition: all 500ms ease;
+    display: inline-block;
+    border-radius: 8px;
+}
+
+ .editdeco :focus + label ,.editdeco + label:hover  {
+    background: rgba(0,0,0,0);
+    color: #868686;
+    box-shadow: inset 0 0 0 3px #868686;
+}
+img.EImg{
+    height: 350px;
+    width: 300px;
+    margin: auto;
+    border: 1px solid #929292;
+    border-radius: 12px;
+    background-size: 55%;
+}
+input[type=text].apps{
+    padding: 10px 20px;
+    border: 2px solid #B3B3B3;
+    border-radius: 7px;
+    background-color: #f1f1f1;
+    width: 300px;
+    height: 16px;
+}
+input[type=time].apdat{
+    font-family: Raleway; 
+    font-size: 15px;
+    height: 25px;
+    width: 130px;
+    border-radius: 7px;
+    border: 2px solid #B3B3B3;
+    background-color: #f1f1f1;
+    
+}
+select.diEvent{
+    font-family: verdana;
+    font-size: 14px;
+    color: white;
+    background-color:#666;
+    height: 32px;
+    width: 100px;
+    border-radius: 7px;
+}
+option{
+    font-family: arial; 
+    font-size: 14px;
+    background-color: #929292;
+}
+textarea.descrieven{
+    width: 340px;
+    height: 75px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #B6B6B6;
+    border-radius: 7px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+input[type=submit].botoevent{
+    margin-top: 20px;
+    width: 240px;
+    border: none;
+    background: #868686;
+    color: #f2f2f2;
+    padding: 9px 70px;
+    font-size: 15px;
+    border-radius: 5px;
+    position: relative;
+    box-sizing: border-box;
+    transition: all 500ms ease;
+    display: inline-block;
+    border-radius: 8px;
+}
+input[type=submit].botoevent:hover{
+    background: rgba(0,0,0,0);
+    color: #868686;
+    box-shadow: inset 0 0 0 3px #868686;
+}

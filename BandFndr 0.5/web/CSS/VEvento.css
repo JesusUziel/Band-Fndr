@@ -1,0 +1,126 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 24/11/2017, 07:52:36 PM
+    Author     : diego
+*/
+
+*{
+    margin:0px;
+    padding:0px;
+}
+@font-face {
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: normal;
+    src: url(../Fonts/Merriweather-Regular.ttf);
+}
+
+#header {
+    float: right;
+    margin: 7px;
+    width: 500px;
+    font-family: Merriweather;
+    font-size: 17px;
+    background-color: #CB2213;
+}
+
+a.Kic{   
+    color: #FFFFFF;
+    text-decoration: none;
+}   
+			
+ul, ol {
+    list-style:none;
+    
+}
+			
+.nav > li {
+    float:left;
+}
+			
+.nav li a {
+    background-color: #CB2213;
+    color:#fff;
+    text-decoration:none;
+    padding:10px 12px;
+    display:block;
+}
+			
+.nav li a:hover {
+    background-color: #FF2F2F;
+}
+			
+.nav li ul {
+    display: none;
+    position: absolute;
+    min-width: 120px;
+    font-size: 14px;
+}
+			
+.nav li:hover > ul {
+    display:block;
+}
+			
+.nav li ul li {
+    position:relative;
+}
+			
+.nav li ul li ul {
+    right:-140px;
+    top:0px;
+}
+
+.cabecera{
+    width:100%;
+    background: #CB2213;
+    position:fixed;
+    
+}
+div.BT{
+    float: left;
+    text-align: center;
+    width: 300px;
+    height: 35px;
+    margin-left: 110px;
+    margin-top: 5px;
+}
+button.EM{
+    margin-top: 6px;
+    width: 480px;
+    height: 32px;
+    background-color: white;
+    border: 1px solid #404040;
+    border-radius: 5px;
+    color: #393939;
+    overflow: visible;
+}
+div.cuerpo{
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    border: none;
+}
+div.IMGEExterno{
+    border-radius: 20px;
+    width: 420px;
+    height: 600px;
+    padding: 3%;
+    margin: 3%;
+    margin-top: 130px;
+    border: 2px solid #DEDEDE;
+    background-color: white;
+}
+div.complementos{
+    border-radius: 20px;
+    width: 650px;
+    height: 600px;
+    padding: 3%;
+    margin: 3%;
+    margin-top: 130px;
+    border: 2px solid #DEDEDE;
+    background-color: white;
+}

@@ -1,0 +1,103 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 23/10/2017, 08:12:06 PM
+    Author     : Alumno
+*/
+
+* {
+    margin:0px;
+    padding:0px;
+}
+@font-face {
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: normal;
+    src: url(../Fonts/Merriweather-Regular.ttf);
+}
+@font-face {
+    font-family: Fjalla One;
+    font-style: normal;
+    font-weight: normal;
+    src: url(../Fonts/FjallaOne-Regular.ttf);
+}
+h5.LT{
+    font-family: Fjalla One;
+    color: #FFFFFF;
+    font-size: 26px;
+    text-align: center;
+}
+			
+#header {
+    border: 1px solid black;
+    float: right;
+    margin:9px;
+    width:900px;
+    font-family: Merriweather;
+    font-size: 18px;
+    
+}
+
+a.Kic{   
+    color: #FFFFFF;
+    text-decoration: none; 
+    left: 100px;
+}   
+			
+ul, ol {
+    list-style:none;
+    
+}
+			
+.nav > li {
+    float: right;
+    
+}
+			
+.nav li a {
+    background-color: #000000;
+    color: #FFFFFF;
+    text-decoration:none;
+    padding:10px 12px;
+    display:block;
+}
+			
+.nav li a:hover {
+    background-color:#434343;
+}
+			
+.nav li ul {
+    display:none;
+    position:absolute;
+    min-width:140px;
+}
+			
+.nav li:hover > ul {
+    display:block;
+}
+			
+.nav li ul li {
+    position:relative;
+}
+			
+.nav li ul li ul {
+    right:-140px;
+    top:0px;
+}
+
+.cabecera{
+    width:100%;
+    background:black;
+    position:fixed;
+    
+}
+.NV{
+    float:left;
+    margin:auto;
+    width:350px;
+    height: 10px;
+    margin-top:-5px;
+}

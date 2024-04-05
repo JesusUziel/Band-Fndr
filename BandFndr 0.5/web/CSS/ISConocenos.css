@@ -1,0 +1,49 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 4/11/2017, 04:45:27 PM
+    Author     : diego
+*/
+table.TEstilo{
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+    background-color: #FFFDFC;
+    
+}
+table, th{
+    border: 2px solid #D1D1D1;
+    
+}
+
+tr.Quienes{
+    height:50%;
+    
+    
+}
+th.Band{
+    width: 65%;
+    height: 50%
+   
+    
+}
+th.Contact{
+    
+    height: 50%;
+   
+}
+
+th:hover {
+    background-color: #E7E7E7;
+}
+div.Estruct{
+   
+    margin-left:55px;
+    margin-right: 55px;
+}
+a.Enlace{
+    text-decoration: none;
+}
